@@ -1,0 +1,4 @@
+Time: 2023-12-16  21:47:11
+Query: insert into master_category (CatName, CatIconURL, Cat_Default, Cat_ExpenseType, Cat_ColorCode, Cat_Active, Cat_Delete, Cat_CreatedBy,Cat_date) values('color', '#4', 'bill', 'test Api', '#ddd', '1', '0', 'Deepak',now())
+Error: ER_BAD_FIELD_ERROR: Unknown column 'CatName' in 'field list'
+----------------------------------------------------------------------
