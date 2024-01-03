@@ -12,8 +12,5 @@ app.use(express.json());
 app.use('/masterCategory', masterCategory)
 app.use('/route1', route1)
 app.use('/colorcode', colorcode)
-app.user('/',(req,res)=>{
-  res.json("Hello World");
-})
 
 module.exports = app;
