@@ -1,5 +1,5 @@
 const masterCategory = require("./API/Master/Master_Category.js");
-const route1 = require("./API/Master/route1.js");
+const UserDetails = require("./API/Master/UserDetails.js");
 const colorcode = require("./API/Master/ColorCode.js");
 
 const express = require("express");
@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.use('/masterCategory', masterCategory)
-app.use('/route1', route1)
+app.use('/UserDetails', UserDetails)
 app.use('/colorcode', colorcode)
 
 module.exports = app;

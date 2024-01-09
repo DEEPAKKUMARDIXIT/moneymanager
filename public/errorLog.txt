@@ -2,3 +2,11 @@ Time: 2023-12-16  21:47:11
 Query: insert into master_category (CatName, CatIconURL, Cat_Default, Cat_ExpenseType, Cat_ColorCode, Cat_Active, Cat_Delete, Cat_CreatedBy,Cat_date) values('color', '#4', 'bill', 'test Api', '#ddd', '1', '0', 'Deepak',now())
 Error: ER_BAD_FIELD_ERROR: Unknown column 'CatName' in 'field list'
 ----------------------------------------------------------------------
+Time: 2024-1-8  11:33:4
+Query: select UserLoginUserId, user_name from user_details where UserLoginUserId='admin' and Use_Password='testApi' and  IsActive=1 and IsDelete =0
+ReferenceError: sucess is not defined
+----------------------------------------------------------------------
+Time: 2024-1-9  11:1:22
+Query: Select * from user_details where User_Id='11' IsActive=1 and IsDelete =0
+Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IsActive=1 and IsDelete =0' at line 1
+----------------------------------------------------------------------

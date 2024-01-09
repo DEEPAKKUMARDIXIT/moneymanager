@@ -1,6 +1,14 @@
 const mysql = require('mysql');
 
 var connection = mysql.createPool({
+    // host:'localhost',
+    // user:'root',
+    // password:'Deepak@123',
+    // port: 3306,
+    // database:'moneymanager',
+    // multipleStatements:true,
+    // dateStrings:true
+
     host:'216.10.245.231',
     user:'finquest_root',
     password:'Deepak@123',
@@ -8,6 +16,7 @@ var connection = mysql.createPool({
     database:'finquest_moneymanager',
     multipleStatements:true,
     dateStrings:true
+
 });
 
 
